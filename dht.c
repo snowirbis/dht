@@ -111,7 +111,7 @@ int main( int argc, char *argv[] )
     for (int i = 0; i < 3; i++)
     {
         read_dht_data( DHT_PIN );
-        delay( 2500 ); /* wait 2.5 seconds before next read */
+        delay( 1000 ); /* wait 1 seconds before next read */
     }
     return(0);
 }
